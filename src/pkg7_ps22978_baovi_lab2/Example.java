@@ -191,7 +191,7 @@ public void Confirm()
 public void Option()
 {
     int mess =JOptionPane.QUESTION_MESSAGE;
-    String[] options={"Java","C++","Vb","PHP","perl"};
+    String[] options={"Java","C++","Vb","PHP","Rill"};
     int code=JOptionPane.showOptionDialog(this,"what langue do you prefer?","Option Dialog Box",0,mess,null,options,"php"); 
     JOptionPane.showMessageDialog(this,"answer: "+code);
             
